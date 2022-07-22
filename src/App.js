@@ -20,7 +20,7 @@ function App() {
   const [show, setShow ] = useState(true);
   const [data, setData] = useState([])
   const [search, setSearch] = useState("")
-  const [dataCp, SetDataCp] = useState()
+  const [dataCp, SetDataCp] = useState([])
 
   useEffect(() => {
     console.log("GET DATOS")
